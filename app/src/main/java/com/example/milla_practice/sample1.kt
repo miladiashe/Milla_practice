@@ -7,6 +7,6 @@ fun main(){
 
 //1 함수
 
-fun helloWorld() : Unit{
+fun helloWorld(){
     println("안녕세계야")
 }
