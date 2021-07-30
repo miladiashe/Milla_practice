@@ -16,3 +16,13 @@ fun helloWorld(){
 fun add(a : Int, b: Int) : Int{
     return a+b
 }
+
+//2 val vs var
+//val = value. 값. 바뀌지 않는 것. var 는 변수
+fun test(){
+    val a : Int = 10
+
+    //a = 100
+    
+    var v : Int = 10
+}
