@@ -71,3 +71,13 @@ fun maxBy(a : Int, b: Int) : Int{
 fun maxBy2(a: Int, b:Int) = if (a>b) a else b
 
 //오 간단해 대박 삼항연산자 바이바이
+
+fun checkNum(score : Int){
+    when(score){
+        0 -> println("this is o")
+        1 -> println("this is 1")
+        2, 3 -> println("뭘까요")
+        else -> println("이건아닌듯")
+    }
+}
+//새로워! 놀라워! 약간 스위치같은건데 더 쉽다
