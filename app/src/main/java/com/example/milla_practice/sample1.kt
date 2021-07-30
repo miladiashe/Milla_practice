@@ -23,6 +23,13 @@ fun test(){
     val a : Int = 10
 
     //a = 100
-    
+
     var v : Int = 10
+
+    v = 100
+
+    var tttt = 100
+    //이렇게 해도 알아듣는다 타입추론함
+
+    var
 }
