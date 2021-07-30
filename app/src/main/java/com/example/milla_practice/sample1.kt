@@ -18,6 +18,10 @@ fun main(){
     *이렇게
      */
     // 드래그하고 ctrl+/ 누르면 전체주석! 우와! 정말대단해!
+
+
+
+
 }
 
 
@@ -49,3 +53,21 @@ fun test(){
     //당장 값을 안 넣을 때는 타입을 알려주자
 
 }
+
+
+//4. 조건식
+
+fun maxBy(a : Int, b: Int) : Int{
+    if(a>b){
+        return a
+    }
+    else{
+        return b
+    }
+}
+
+//위와 같음
+
+fun maxBy2(a: Int, b:Int) = if (a>b) a else b
+
+//오 간단해 대박 삼항연산자 바이바이
