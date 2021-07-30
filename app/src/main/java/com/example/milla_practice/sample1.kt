@@ -1,9 +1,17 @@
 package com.example.milla_practice
 
 fun main(){
-    helloWorld()
 
-    println(add(17, 24))
+    //3 String Template
+
+    val answer = "귀요미"
+
+    println("1+1 = $answer")
+    println("1+1 = ${answer}2+2=${answer} ")
+    //{}이거 쳐주면 뒤에 띄어쓰기 없이도 변수명과 뒤의 스트링을 구분해준다.
+
+    println("150\$ ")
+
 }
 
 
@@ -31,5 +39,7 @@ fun test(){
     var tttt = 100
     //이렇게 해도 알아듣는다 타입추론함
 
-    var
+    var e : String
+    //당장 값을 안 넣을 때는 타입을 알려주자
+
 }
