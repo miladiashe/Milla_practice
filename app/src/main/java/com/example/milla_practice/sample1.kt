@@ -20,7 +20,9 @@ fun main(){
     // 드래그하고 ctrl+/ 누르면 전체주석! 우와! 정말대단해!
 
 
-    checkNum(2)
+    //checkNum(2)
+
+    forAndWhile()
 
 }
 
@@ -134,7 +136,7 @@ fun array(){
     //컨트롤 누르고 눌러보면 함수 정의로 가진다
 
     //arraylist: 뮤터블블리스트 일종. 대표적이라고 한다.
-    var arrayList = arrayListOf<int>()
+    var arrayList = arrayListOf<Int>()
 
     arrayList.add(10)
     arrayList.add(200)
@@ -151,9 +153,14 @@ fun array(){
 //for, while
 
 fun forAndWhile(){
-    val myCharacters = arryListOf("Alice", "Mica", "Mina")
+    val myCharacters = arrayListOf("Alice", "Mica", "Mina")
 
     for ( name in myCharacters ){
-        
+        println("$name 는 내꺼 ")
+    }
+
+    for (i in 1..10){
+        println("$i 초 후")
     }
 }
+
