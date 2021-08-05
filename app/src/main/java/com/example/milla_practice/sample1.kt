@@ -102,3 +102,7 @@ fun checkNum(score : Int){
 
 
 //새로워! 놀라워! 약간 스위치같은건데 더 쉽다
+
+
+//Expression vs Statement
+//표현식(Expression) 은 뭔가 해서 값을 만들어내는 것. 문장(Statement)은 값을 만드는게 아니라 뭔가를 실행시키거나 한다.
