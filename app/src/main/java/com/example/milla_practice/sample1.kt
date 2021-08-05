@@ -106,3 +106,7 @@ fun checkNum(score : Int){
 
 //Expression vs Statement
 //표현식(Expression) 은 뭔가 해서 값을 만들어내는 것. 문장(Statement)은 값을 만드는게 아니라 뭔가를 실행시키거나 한다.
+//코틀린의 모든 함수는 Expression
+//아무것도 리턴하지 않는 것 같아 보이는 함수는 Unit을 리턴한다.
+//자바 같은 경우는 Void가 존재해서 Statement인 함수를 만들 수 있다-> 코틀린은 Void가 없다?!
+//자바에선 if를 statement로밖에 사용 못했는데 코틀린에서는 Expression으로 사용이 가능, when도 마찬가지
