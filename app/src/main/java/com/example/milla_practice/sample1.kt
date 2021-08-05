@@ -132,4 +132,12 @@ fun array(){
     //get으로 가져와 변수에 넣을수만 있지, 직접 들어가 바꾸는건 불가능. set도 없다.
 
     //컨트롤 누르고 눌러보면 함수 정의로 가진다
+
+    //arraylist: 뮤터블블리스트 일종. 대표적이라고 한다.
+    var arrayList = arrayListOf<int>()
+
+    arrayList.add(10)
+    arrayList.add(200)
+
+    //참조하는 주소가 바뀌지 않아서<<<<<< val로 써도 되는것이다.
 }
