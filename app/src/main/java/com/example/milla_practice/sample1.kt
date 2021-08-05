@@ -4,13 +4,13 @@ fun main(){
 
     //3 String Template
 
-    val answer = "귀요미"
-
-    println("1+1 = $answer")
-    println("1+1 = ${answer}2+2=${answer} ")
-    //{}이거 쳐주면 뒤에 띄어쓰기 없이도 변수명과 뒤의 스트링을 구분해준다.
-
-    println("150\$ ")
+//    val answer = "귀요미"
+//
+//    println("1+1 = $answer")
+//    println("1+1 = ${answer}2+2=${answer} ")
+//    //{}이거 쳐주면 뒤에 띄어쓰기 없이도 변수명과 뒤의 스트링을 구분해준다.
+//
+//    println("150\$ ")
 
 
     //주석
@@ -20,7 +20,7 @@ fun main(){
     // 드래그하고 ctrl+/ 누르면 전체주석! 우와! 정말대단해!
 
 
-
+    checkNum(2)
 
 }
 
@@ -76,8 +76,29 @@ fun checkNum(score : Int){
     when(score){
         0 -> println("this is o")
         1 -> println("this is 1")
-        2, 3 -> println("뭘까요")
+        2, 3 -> println("2와 3중에 뭘까요")
         else -> println("이건아닌듯")
+        // 복수 가능, 다 아니면 else로 빠진다. 함수 안에서는 else 안써도 되는데 변수에 할당할때는 else 꼭 넣어야 한다.
+    }
+
+    var b = when(score){
+        1 -> 1
+        2 -> 2
+        else -> 3
+    }
+
+    println("b = $b")
+
+    when(score){
+        in 90..100 -> println("굿")
+        in 10 downTo 0 -> println("밷")
+        else -> println("ㅆㅆ")
+        //오오 이런것도돼!!
+
     }
 }
+
+
+
+
 //새로워! 놀라워! 약간 스위치같은건데 더 쉽다
