@@ -159,8 +159,16 @@ fun forAndWhile(){
         println("$name 는 내꺼 ")
     }
 
-    for (i in 1..10){
+    for (i in 1 until 100){
         println("$i 초 후")
+    }
+    // .., downTo, until. ..을 제일 많이 씀
+
+    var index = 0
+    while (index < 10){
+        println("current index = $index")
+        val index1 = index++
+        index1
     }
 }
 
