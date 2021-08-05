@@ -115,7 +115,7 @@ fun checkNum(score : Int){
 //Array와 List
 
 //정말 큰 차이점 = 배열은 메모리가 이미 할당이 되어서 사이즈가 정해져있음.
-//리스트는 2가지로 나뉨. immutable, mutable 수정 불가능, 가능
+//리스트는 2가지로 나뉨. immutable, mutable 수정 불가능, 가능 바꿀수없는게 그냥 list다.
 
 fun array(){
     val array = arrayOf(1, 2, 3)
@@ -123,4 +123,13 @@ fun array(){
 
     val list = listOf(1, 2, 3)
     //listOf로 초기화한다.
+
+    //꼭 타입이 같을 필요는 없음. Array도! 그러면 타입이 Any타입이 된다
+
+    //array는 기본적으로 값 변경이 가능. 사이즈만 변경하지 않으면
+
+    //리스트는 어레이와 다르게 인터페이스다<무슨뜻?
+    //get으로 가져와 변수에 넣을수만 있지, 직접 들어가 바꾸는건 불가능. set도 없다.
+
+    //컨트롤 누르고 눌러보면 함수 정의로 가진다
 }
