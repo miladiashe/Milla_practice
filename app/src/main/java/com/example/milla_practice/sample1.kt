@@ -142,3 +142,18 @@ fun array(){
     //참조하는 주소가 바뀌지 않아서<<<<<< val로 써도 되는것이다.
     //새로운 객체를 만들어서 할당할때는 val로 쓸 수가 없다.(C적 개념?)
 }
+
+
+//반복문
+
+//어레이 리스트를 for문에 사용할 수 있다.
+
+//for, while
+
+fun forAndWhile(){
+    val myCharacters = arryListOf("Alice", "Mica", "Mina")
+
+    for ( name in myCharacters ){
+        
+    }
+}
