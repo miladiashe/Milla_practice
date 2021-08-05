@@ -110,3 +110,8 @@ fun checkNum(score : Int){
 //아무것도 리턴하지 않는 것 같아 보이는 함수는 Unit을 리턴한다.
 //자바 같은 경우는 Void가 존재해서 Statement인 함수를 만들 수 있다-> 코틀린은 Void가 없다?!
 //자바에선 if를 statement로밖에 사용 못했는데 코틀린에서는 Expression으로 사용이 가능, when도 마찬가지
+
+
+//Array와 List
+
+
