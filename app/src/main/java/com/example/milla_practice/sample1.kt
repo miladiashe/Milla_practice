@@ -114,4 +114,13 @@ fun checkNum(score : Int){
 
 //Array와 List
 
+//정말 큰 차이점 = 배열은 메모리가 이미 할당이 되어서 사이즈가 정해져있음.
+//리스트는 2가지로 나뉨. immutable, mutable 수정 불가능, 가능
 
+fun array(){
+    val array = arrayOf(1, 2, 3)
+    //arrayOf로 초기화한다.
+
+    val list = listOf(1, 2, 3)
+    //listOf로 초기화한다.
+}
